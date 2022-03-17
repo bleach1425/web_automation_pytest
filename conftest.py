@@ -57,9 +57,5 @@ def driver_init(request):
     web_driver.maximize_window()
     web_driver.delete_all_cookies()
     yield
-
-# @pytest.fixture(scope="session", params=["Chrome", "Firefox"])
-# def driver_init(request):
-#     browser = {}
-#     browser["browser"] = request.param
-#     return browser
+    
+    
