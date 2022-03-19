@@ -8,7 +8,7 @@ import pyautogui
 
 
 """
-犀牛盾自動化測試
+rhinoshield automation code
 """
 
 
