@@ -79,7 +79,7 @@ class TestCase(BasicTest):
         """
         # Step1
         product_button = xpath('//*[@id="navigation-bar"]/div[2]/div/div[1]/div[3]/dl/dd[2]')
-        assert product_button != None, "Can't Find product bottom"
+        assert product_button != None, "Can't Find product button"
         product_button.click()
         
         # Step2
